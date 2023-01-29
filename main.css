@@ -1,3 +1,85 @@
+.hw{
+
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    margin-top: 70px;
+    position: relative;
+}
 .father{
-    background-color:#3fff3d;
+    height: 300px;
+    width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.respon{
+    height: 400px;
+    width: 350px;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
+    background-color: aliceblue;
+}
+.Use{
+    height: 400px;
+    width: 350px;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
+
+}
+.web{
+    height:400px;
+    width: 350px;
+    background-color: aliceblue;
+    margin:1px;
+    padding: 5px;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+.button{
+    height: 50px;
+    width: 150px;
+    background-color: aliceblue;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-content:flex-end;
+    margin-left: 70px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+.knock{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-left: 110px;
+    text-align: center;
+    position: absolute;
+    margin-top: -50px;
+
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: #aaa 2px solid;
+    box-shadow: 0 1px 1px 1px #bbb; /* тень */
+    -moz-box-shadow: 0 1px 1px 1px #bbb;
+    -webkit-box-shadow: 0 1px 1px 1px #bbb;
+}
+.h1{
+    margin-left: 80px;
+    padding-top: 25px;
+}
+.p{
+    margin: 10px;
+}
+.web>button{
+    margin-top: 80px;
 }
